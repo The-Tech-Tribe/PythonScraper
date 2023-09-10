@@ -18,7 +18,9 @@ def scraper():
 
     result = sc.merge_and_gptfy2x()
 
-    return result
+    return jsonify({
+        "description": result
+    })
 
 
 app.run()

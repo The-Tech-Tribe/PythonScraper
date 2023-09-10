@@ -2,7 +2,7 @@ import requests
 url = 'http://127.0.0.1:5000/ss'
 
 data = {
-    "company": "linella"
+    "company": "endava"
 }
 
 data_post = requests.post(url, json=data)
